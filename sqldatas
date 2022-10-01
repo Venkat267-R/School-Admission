@@ -1,0 +1,14 @@
+create database schooladmissionportal;
+use schooladmissionportal;
+create table school (student_name varchar(100),
+                     parent_name varchar(100),
+                     contact char(10),
+                     email varchar(100),
+                     class int,
+                     age int,
+                     dob date,
+                     single_child varchar(100),
+                     aadhaar char(20) primary key,
+                     pincode int,
+                     last_school varchar(300),
+                     gender varchar(100));
